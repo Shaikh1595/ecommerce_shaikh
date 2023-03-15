@@ -14,6 +14,11 @@ body, * {
 a {
   color: inherit;
   text-decoration: none;
+  border-style: solid;
+  border-radius: 8px;
+  padding: 4px ;
+  border-color:darkgray;
+  border-width: thin;
 }
 
 .main-container{
@@ -67,6 +72,7 @@ width: 100%;
 .logo{
   color: gray;
   font-size: 18px;
+  
 
 }
 .cart-icon{
@@ -77,6 +83,7 @@ width: 100%;
   transition: transform .4s ease;
   border: none;
   background-color: transparent;
+  
 }
 .cart-icon:hover{
   transform: scale(1.1,1.1);
@@ -107,6 +114,10 @@ width: 100%;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
  color: #324d67;
+ background-color: #ebebeb;
+ border-radius: 15px;
+ padding: 10px;
+ 
 
 }
 .product-card:hover{
@@ -339,16 +350,17 @@ text-align: end;
 .product-container{
   margin-top: 15px;
   overflow: auto;
-max-height: 70vh;
+max-height: 90vh;
 padding: 20px 10px;
 }
 .product{
   display: flex;
- gap: 30px;
+  gap: 30px;
   padding: 20px;
+
 }
 .product .cart-product-image{
-  width:180px ;
+  width:180px;
   height: 150px;
     border-radius: 15px;
  background-color: #ebebeb;
@@ -418,9 +430,12 @@ padding: 30px 65px;
 }
 .product-detail-container{
   display: flex;
- gap: 40px;
- margin: 40px;
- margin-top: 60px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+ gap: 8px;
+ margin: 10px;
+ margin-top: 50px;
  color: #324d67;
 
 }
@@ -495,7 +510,7 @@ padding: 30px 65px;
 .buttons .add-to-cart{
   padding: 10px 20px;
   border: 1px solid #f02d34 ;
-  margin-top: 40px;
+  margin: 10px;
   font-size: 18px;
   font-weight: 500;
   background-color: white;
@@ -515,7 +530,7 @@ padding: 30px 65px;
   background-color: #f02d34;
   color: white;
   border: none;
-  margin-top: 40px;
+  margin: 10px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
@@ -688,7 +703,7 @@ margin-top: 160px;
   }
   .cart-container{
     width: 415px;
-  padding: 4px;
+    padding: 4px;
   }
   .cart-heading{
     margin-top: 35px;
@@ -698,11 +713,11 @@ margin-top: 160px;
   }
   .product{
     padding: 20px 5px;
-
+    
   }
   .product .cart-product-image{
-    width: 25%;
-    height: 25%;
+    width: 50px;
+    height: 50px;
   }
   .buttons .add-to-cart{
     width: 150px;
