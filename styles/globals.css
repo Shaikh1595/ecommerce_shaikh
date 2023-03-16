@@ -209,10 +209,9 @@ flex-direction: column;
 text-align: end;
 }
 .desc h5{
-  margin-bottom: 12px;
+  margin-bottom: 6px;
   font-weight: 700;
   font-size: 16px;
-  /* color: black; */
   align-self: flex-end;
 }
 .products-heading{
