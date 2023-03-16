@@ -1,1 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Shaikh's Shop
+
+An Ecommerce website utilizing industry-standard technologies, including JavaScript, React, and Next.js. The backend is powered by the Sanity platform; additionally, payment processing is facilitated through integration with Stripe. 
+
+LinkedIn: https://www.linkedin.com/in/mohmed-shaikh/
