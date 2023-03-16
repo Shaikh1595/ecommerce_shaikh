@@ -24,11 +24,12 @@ a {
 .main-container{
 max-width: 1400px; 
 margin: auto;
-width: 100%;
+width: 150%;
 
 }
 .layout{
   padding: 10px;
+  width: 100%;
 }
 
 .navbar-container{
@@ -183,7 +184,7 @@ width: 100%;
 .hero-banner-image{
   position: absolute;
   top: 0%;
-  right:10%;
+  right:5%;
   width: 450px;
   height: 450px;
 }
