@@ -317,6 +317,16 @@ text-align: end;
   justify-content: center;
 
 }
+
+@media (max-width: 768px) {
+  .footer-container {
+    justify-content: center;
+    margin-right: -50%;
+    margin-left: 30%;
+    max-width: 90%;
+  }
+  
+}
 .footer-container .icons{
   font-size: 34px;
   display: flex;
